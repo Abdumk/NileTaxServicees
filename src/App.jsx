@@ -1,5 +1,8 @@
 import './App.css'
+import Header from './components/Header/Header';
 import TawkToWidget from "./services/TawkToWidget";
+import Home from './components/Home/Home';
+
 function App() {
 
 
@@ -7,6 +10,8 @@ function App() {
     <> 
     <div>
       {/* Other components */}
+      <Header />
+    <Home />
       <TawkToWidget />
     </div>
     </>
