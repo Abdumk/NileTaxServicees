@@ -14,16 +14,16 @@ function Header() {
       <nav>
         <ul>
           <li>
-            Home
+          <Link to="/">Home</Link>
           </li>
           <li>
             About
           </li>
           <li>
-            Services
+        <Link to="/services">Services</Link>    
           </li>
           <li>
-           Contact us
+          <Link to="/contact">Contact us</Link>
           </li>
         </ul>
       </nav>
