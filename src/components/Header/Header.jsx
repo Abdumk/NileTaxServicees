@@ -2,9 +2,13 @@ import React from 'react'
 
 import { Link } from 'react-router-dom';
 import './Header.css'
+import Miniheader from '../Miniheader/Miniheader';
 
 function Header() {
   return (
+    <>
+    <Miniheader />
+    
     <header>
       <div className="logo">
         <Link to="/">
@@ -17,7 +21,7 @@ function Header() {
           <Link to="/">Home</Link>
           </li>
           <li>
-            About
+          <Link to="/about">About us</Link>
           </li>
           <li>
         <Link to="/services">Services</Link>    
@@ -28,6 +32,7 @@ function Header() {
         </ul>
       </nav>
     </header>
+    </>
   )
 }
 
