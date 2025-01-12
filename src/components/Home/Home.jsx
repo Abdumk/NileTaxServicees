@@ -85,6 +85,33 @@ function Home() {
 Voluptatum exercitationem id minus voluptatibus et facere distinctio ratione numquam excepturi magnam amet quod saepe fugit dolorum, cum voluptatem, repudiandae esse quisquam eius repellendus molestiae minima explicabo animi nesciunt. Praesentium.</p>
 
 </div>
+<section id="why-work-with-us" className="why-work-with-us section">
+      <div className="container">
+        <div className="section-title" data-aos="fade-up">
+          <h2>Why Work With Us?</h2>
+          <p>Discover the reasons to choose us as your trusted partner</p>
+        </div>
+        <div className="points-list" data-aos="fade-up" data-aos-delay="100">
+          <ul>
+            <li>
+              <i className="bi bi-check-circle"></i> We deliver high-quality solutions tailored to your needs.
+            </li>
+            <li>
+              <i className="bi bi-check-circle"></i> Our team has extensive experience across industries.
+            </li>
+            <li>
+              <i className="bi bi-check-circle"></i> We prioritize customer satisfaction and long-term relationships.
+            </li>
+            <li>
+              <i className="bi bi-check-circle"></i> Innovative and cost-effective services to ensure value.
+            </li>
+            <li>
+              <i className="bi bi-check-circle"></i> Dedicated support and fast response times.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     </>
   )
 }
