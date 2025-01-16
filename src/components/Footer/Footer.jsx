@@ -25,7 +25,7 @@ function Footer() {
         <p>Dumfries, VA, United States, 22025</p>
         <p>Manassas Park, VA · Woodbridge, VA · Prince William County, VA · Dumfries, VA · Montclair, VA</p>
         <p className="mt-3"><strong>Phone:</strong> <span>+1 571-306-9039</span></p>
-        <p><strong>Email:</strong> <span>info@example.com</span></p>
+        <p><strong>Email:</strong> <span>admin@nilefinancialservices.com</span></p>
       </div>
     </div>
 

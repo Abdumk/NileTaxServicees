@@ -2023,4 +2023,44 @@
     font-size: 1.5rem;
   }
   
+  .transform-section {
+   /* background-image: url('../../assets/images/ab3.jpg');  Replace with the correct path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: black;
+  }
   
+  .transform-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .transform-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .refund-stages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .refund-stages li {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .refund-stages li::before {
+    content: '✔';
+    margin-right: 10px;
+    color: #2ecc71;
+  }

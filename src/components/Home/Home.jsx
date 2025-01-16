@@ -1,7 +1,11 @@
 import React from 'react'
 import './Home.css';
 // import banner from '../../assets/images/aa3.jpg'; 
-import banner from '../../assets/images/Banner2.jpg'; 
+import banner from '../../assets/images/Banner4.jpg'; 
+// import refundImage from '../../assets/images/Garante.jpg'; 
+import refundImage from '../../assets/images/Banner.jpg'; 
+
+
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AOS from 'aos';
@@ -32,9 +36,9 @@ function Home() {
               <i className="bi bi-activity icon"></i>
             </div>
             <h4>
-              <a href="" className="stretched-link">Lorem Ipsum</a>
+              <a href="" className="stretched-link">Comprehensive Tax Solutions</a>
             </h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <p>We provide a full range of tax services to meet the needs of individuals and businesses. Our services ensure compliance with tax regulations and aim to maximize financial outcomes. Our experienced team is here to guide you.</p>
           </div>
         </div>
 
@@ -44,9 +48,9 @@ function Home() {
               <i className="bi bi-bounding-box-circles icon"></i>
             </div>
             <h4>
-              <a href="" className="stretched-link">Sed ut perspici</a>
+              <a href="" className="stretched-link">Expert Financial Advisory</a>
             </h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            <p>Our team offers personalized financial advice to help you achieve your financial goals and secure your future. We take the time to understand your unique financial situation and provide tailored solutions for informed decisions.</p>
           </div>
         </div>
 
@@ -56,9 +60,9 @@ function Home() {
               <i className="bi bi-calendar4-week icon"></i>
             </div>
             <h4>
-              <a href="" className="stretched-link">Magni Dolores</a>
+              <a href="" className="stretched-link">Business Consulting</a>
             </h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            <p>We assist businesses in improving operations, financial performance, and growth strategies through expert consulting services. Our consultants work closely with you to identify opportunities for improvement and implement effective solutions.</p>
           </div>
         </div>
 
@@ -68,19 +72,23 @@ function Home() {
               <i className="bi bi-broadcast icon"></i>
             </div>
             <h4>
-              <a href="" className="stretched-link">Nemo Enim</a>
+              <a href="" className="stretched-link">Bookkeeping and Accounting</a>
             </h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <p>We offer accurate and efficient bookkeeping and accounting services to keep your financial records organized and up-to-date. Our services include managing accounts payable and receivable, payroll processing, and financial reporting.</p>
           </div>
         </div>
       </div>
     </div>
     </section>
     <div className="container">
-    <p>Welcome to Nile Tax Services. We provide comprehensive tax solutions to individuals and businesses. Our team of experienced professionals is dedicated to helping you navigate the complexities of tax regulations and maximize your financial outcomes.</p>
-       
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum cupiditate dolorem architecto voluptate modi atque sit in facilis nemo, nobis consectetur culpa minus blanditiis quas! Accusantium reprehenderit fugit cum!
-Voluptatum exercitationem id minus voluptatibus et facere distinctio ratione numquam excepturi magnam amet quod saepe fugit dolorum, cum voluptatem, repudiandae esse quisquam eius repellendus molestiae minima explicabo animi nesciunt. Praesentium.</p>
+    <p>We provide comprehensive tax solutions to individuals and businesses. Our team of experienced professionals is dedicated to helping you navigate the complexities of tax regulations and maximize your financial outcomes.</p>
+
+   <h2>  Helping is our priority</h2> 
+    <p>
+    This website exists to provide potential clients with information concerning our firm, low-pressure approach to personal and professional services. In Nile Financial Services LLC, We have an excellent client-retention rate, and we are extremely proud of the high-quality bookkeeping and tax filing services.
+    </p>
+       <h2>The Perfect Solution</h2>
+<p>Please, feel free to browse our website to see the various services we are offering, as well as the many helpful resources we provide. When you are ready to learn more about what we can do for you, we encourage you to contact us.</p>
 
 </div>
 <section id="why-work-with-us" className="why-work-with-us section">
@@ -108,6 +116,63 @@ Voluptatum exercitationem id minus voluptatibus et facere distinctio ratione num
             </li>
           </ul>
         </div>
+        {/* <h2>We Transform Your Problems into Creative Solutions</h2>
+<p>The IRS issues more than 9 out of 10 refunds in less than 21 days. However, it’s possible your tax return may require additional review and take longer. Where’s My Refund? has the most up to date information available about your refund. The tool is updated no more than once a day so you don’t need to check more often.</p>
+        <p>At Nile Tax Services, we understand that every client is unique and has specific needs. That's why we take the time to get to know you and your business, so we can provide the best possible solutions. Our team of experts is dedicated to helping you achieve your financial goals and maximize your tax savings. Whether you need help with tax planning, preparation, or representation, we have the knowledge and experience to guide you through the process. Contact us today to learn more about how we can help you succeed.</p>
+        <p>You will get personalized refund information based on the processing of your tax return. The tool will provide an actual refund date as soon as the IRS processes your tax return and approves your refund.</p> */}
+            {/* <h2>We Transform Your Problems into Creative Solutions</h2>
+          <p>The IRS issues more than 9 out of 10 refunds in less than 21 days. However, it’s possible your tax return may require additional review and take longer. Where’s My Refund? has the most up to date information available about your refund. The tool is updated no more than once a day so you don’t need to check more often.</p>
+          <p>At Nile Tax Services, we understand that every client is unique and has specific needs. That's why we take the time to get to know you and your business, so we can provide the best possible solutions. Our team of experts is dedicated to helping you achieve your financial goals and maximize your tax savings. Whether you need help with tax planning, preparation, or representation, we have the knowledge and experience to guide you through the process. Contact us today to learn more about how we can help you succeed.</p>
+          <p>You will get personalized refund information based on the processing of your tax return. The tool will provide an actual refund date as soon as the IRS processes your tax return and approves your refund.</p>
+          <div className="row">
+            <div className="col-lg-8">
+              <p>You can use Where’s My Refund to start checking on the status of your return within 24 hours after we have received your e-filed return or 4 weeks after you mail a paper return. Where’s My Refund? has a tracker that displays progress through 3 stages:</p>
+              <ul>
+                <li>Return Received</li>
+                <li>Refund Approved</li>
+                <li>Refund Sent</li>
+              </ul>
+            </div>
+            <div className="col-lg-4">
+              <img src={refundImage} alt="Refund Tracker" style={{ height: '300px', width: '200px' }} />
+            </div>
+          </div> */}
+                    {/* <h2>We Transform Your Problems into Creative Solutions</h2>
+          <div className="row align-items-center">
+            <div className="col-lg-4">
+              <img src={refundImage} alt="Refund Tracker" className="img-fluid" style={{ height: '500px', width: '450px' }} />
+            </div>
+            <div className="col-lg-8">
+              <p>The IRS issues more than 9 out of 10 refunds in less than 21 days. However, it’s possible your tax return may require additional review and take longer. Where’s My Refund? has the most up to date information available about your refund. The tool is updated no more than once a day so you don’t need to check more often.</p>
+              <p>At Nile Tax Services, we understand that every client is unique and has specific needs. That's why we take the time to get to know you and your business, so we can provide the best possible solutions. Our team of experts is dedicated to helping you achieve your financial goals and maximize your tax savings. Whether you need help with tax planning, preparation, or representation, we have the knowledge and experience to guide you through the process. Contact us today to learn more about how we can help you succeed.</p>
+              <p>You will get personalized refund information based on the processing of your tax return. The tool will provide an actual refund date as soon as the IRS processes your tax return and approves your refund.</p>
+              <p>You can use Where’s My Refund to start checking on the status of your return within 24 hours after we have received your e-filed return or 4 weeks after you mail a paper return. Where’s My Refund? has a tracker that displays progress through 3 stages:</p>
+              <ul>
+                <li>Refund Sent</li>
+                <li>Return Received</li>
+                <li>Refund Approved</li>
+              </ul>
+            </div>
+          </div> */}
+            <div className="transform-section">
+            <h2>We Transform Your Problems into Creative Solutions</h2>
+            <div className="row align-items-center">
+              <div className="col-lg-4">
+                <img src={refundImage} alt="Refund Tracker" className="img-fluid" />
+              </div>
+              <div className="col-lg-8">
+                <p>The IRS issues more than 9 out of 10 refunds in less than 21 days. However, it’s possible your tax return may require additional review and take longer. Where’s My Refund? has the most up to date information available about your refund. The tool is updated no more than once a day so you don’t need to check more often.</p>
+                <p>At Nile Tax Services, we understand that every client is unique and has specific needs. That's why we take the time to get to know you and your business, so we can provide the best possible solutions. Our team of experts is dedicated to helping you achieve your financial goals and maximize your tax savings. Whether you need help with tax planning, preparation, or representation, we have the knowledge and experience to guide you through the process. Contact us today to learn more about how we can help you succeed.</p>
+                <p>You will get personalized refund information based on the processing of your tax return. The tool will provide an actual refund date as soon as the IRS processes your tax return and approves your refund.</p>
+                <p>You can use Where’s My Refund to start checking on the status of your return within 24 hours after we have received your e-filed return or 4 weeks after you mail a paper return. Where’s My Refund? has a tracker that displays progress through 3 stages:</p>
+                <ul className="refund-stages">
+                  <li>Refund Sent</li>
+                  <li>Return Received</li>
+                  <li>Refund Approved</li>
+                </ul>
+              </div>
+            </div>
+          </div>
       </div>
     </section>
     </>

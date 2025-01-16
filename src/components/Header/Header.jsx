@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './Header.css'
 import Miniheader from '../Miniheader/Miniheader';
+import logo from '../../assets/images/logo.jpg'; 
 
 function Header() {
   return (
@@ -12,7 +13,7 @@ function Header() {
     <header>
       <div className="logo">
         <Link to="/">
-          <img src="logo.png" alt="Blog Logo" />
+          <img src={logo} alt="Nile Tax Services Logo" />
         </Link>
       </div>
       <nav>

@@ -1959,4 +1959,32 @@
     /* Add your styles here */
   }
 
+  .contact {
+    background-image: url('../../assets/images/Garante.jpg'); /* Replace with the correct path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+  }
   
+  .contact .section-title h2 {
+    color: #fff;
+  }
+  
+  .contact .section-title p {
+    color: #fff;
+  }
+  
+  .contact .info-wrap {
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to make text more readable */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact .info-item h3 {
+    color: #fff;
+  }
+  
+  .contact .info-item p {
+    color: #fff;
+  }
