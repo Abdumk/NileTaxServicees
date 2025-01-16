@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css';
-import banner from '../../assets/images/aa3.jpg'; 
+// import banner from '../../assets/images/aa3.jpg'; 
+import banner from '../../assets/images/Banner2.jpg'; 
+
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -18,7 +20,7 @@ function Home() {
         <img src={banner} alt="Banner" />
       </div>
       <div className="content">
-        <h1>Welcome to Our Website</h1>
+        <h1>Welcome to Nile Tax Services</h1>
         <p>Explore our services and offerings.</p>
       </div>
  <section id="featured-services" className="featured-services section">
@@ -75,12 +77,8 @@ function Home() {
     </div>
     </section>
     <div className="container">
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cumque consequuntur provident culpa, quam cupiditate autem distinctio sed iusto iste laudantium aperiam voluptates inventore deserunt perferendis ex reprehenderit suscipit omnis.
-    Explicabo, veritatis aliquam veniam odio ducimus distinctio eos consectetur quod error esse, beatae dolor accusamus. Aliquam saepe ut ad repudiandae reprehenderit voluptas quo quidem, tempore autem, distinctio laudantium, nam rerum.
-    Commodi veniam exercitationem perferendis consequatur molestias quae aliquam accusamus eaque soluta tempora deleniti totam aut pariatur obcaecati, ipsum nam, delectus distinctio officia quia? Vitae excepturi eius provident commodi aut consectetur?
-    Possimus eum delectus quod distinctio tempore illum natus, ea, corporis magnam dolorum est. Placeat laudantium eveniet pariatur nobis facere perspiciatis vitae, magnam, libero est quae quod. Accusamus aperiam deleniti impedit?
-</p>
+    <p>Welcome to Nile Tax Services. We provide comprehensive tax solutions to individuals and businesses. Our team of experienced professionals is dedicated to helping you navigate the complexities of tax regulations and maximize your financial outcomes.</p>
+       
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum cupiditate dolorem architecto voluptate modi atque sit in facilis nemo, nobis consectetur culpa minus blanditiis quas! Accusantium reprehenderit fugit cum!
 Voluptatum exercitationem id minus voluptatibus et facere distinctio ratione numquam excepturi magnam amet quod saepe fugit dolorum, cum voluptatem, repudiandae esse quisquam eius repellendus molestiae minima explicabo animi nesciunt. Praesentium.</p>
 

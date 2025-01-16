@@ -1,5 +1,7 @@
 import React from 'react'
-import aboutimg from '../../assets/images/ab3.jpg'
+// import aboutimg from '../../assets/images/ab3.jpg'
+import aboutimg from '../../assets/images/king.jpg'
+
 
 function About() {
   return (
@@ -20,11 +22,10 @@ function About() {
 
       <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
         <div className="about-content ps-0 ps-lg-3">
-          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-          <p className="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
-          </p>
+        <h3>Our Purpose</h3>
+        <p className="fst-italic">
+                At Nile Tax Services, our mission is to provide comprehensive tax solutions and financial advice to help you achieve your goals. Our experienced team is committed to delivering high-quality services tailored to your needs.
+              </p>
           <ul>
             <li>
               <i className="bi bi-diagram-3"></i>

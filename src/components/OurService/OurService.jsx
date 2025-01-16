@@ -6,7 +6,7 @@ function OurService() {
 
   {/* Section Title */}
   <div className="container section-title" data-aos="fade-up">
-    <h2>Services</h2>
+    <h2>Our Services</h2>
     <p><span>Check Our</span> <span className="description-title">Services</span></p>
   </div>{/* End Section Title */}
 
@@ -18,9 +18,9 @@ function OurService() {
             <i className="bi bi-activity"></i>
           </div>
           <a href="#" className="stretched-link">
-            <h3>Nesciunt Mete</h3>
+            <h3>Tax Preparation</h3>
           </a>
-          <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+          <p>Assistance with preparing and filing your tax returns accurately and on time.</p>
         </div>
       </div>{/* End Service Item */}
 
@@ -30,9 +30,9 @@ function OurService() {
             <i className="bi bi-broadcast"></i>
           </div>
           <a href="#" className="stretched-link">
-            <h3>Eosle Commodi</h3>
+            <h3>Tax Planning</h3>
           </a>
-          <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+          <p> Strategic planning to minimize tax liabilities and maximize financial benefits.</p>
         </div>
       </div>{/* End Service Item */}
 
@@ -42,9 +42,9 @@ function OurService() {
             <i className="bi bi-easel"></i>
           </div>
           <a href="#" className="stretched-link">
-            <h3>Ledo Markt</h3>
+            <h3>Bookkeeping</h3>
           </a>
-          <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+          <p>Accurate and efficient recording of financial transactions to maintain organized and up-to-date financial records.</p>
         </div>
       </div>{/* End Service Item */}
 
@@ -54,9 +54,9 @@ function OurService() {
             <i className="bi bi-bounding-box-circles"></i>
           </div>
           <a href="#" className="stretched-link">
-            <h3>Asperiores Commodit</h3>
+            <h3>Business Consulting</h3>
           </a>
-          <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+          <p>Expert advice to help businesses improve operations, financial performance, and growth strategies.</p>
         </div>
       </div>{/* End Service Item */}
 
@@ -66,9 +66,9 @@ function OurService() {
             <i className="bi bi-calendar4-week"></i>
           </div>
           <a href="#" className="stretched-link">
-            <h3>Velit Doloremque</h3>
+            <h3>Audit Representation </h3>
           </a>
-          <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+          <p> Professional representation during IRS or state tax audits to ensure compliance and resolve issues.</p>
         </div>
       </div>{/* End Service Item */}
 
@@ -78,9 +78,17 @@ function OurService() {
             <i className="bi bi-chat-square-text"></i>
           </div>
           <a href="#" className="stretched-link">
-            <h3>Dolori Architecto</h3>
+            <h3>Financial Advisory</h3>
           </a>
-          <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+          {/* <p>Return your taxes with Zero Accounting services
+1. Account Preparation for Business
+2. Tax filling
+3. Preparation of Financial report
+4.Personal income tax filling & Property Tax .
+5. Financial consultation
+
+Kindly contact zero Accounting services Authorized Accounting firm located near Thimphu swimming pool.whatsapp 77370793 or 77221936</p>*/}
+          <p>Personalized financial advice to help you achieve your financial goals and secure your future.</p> 
         </div>
       </div>{/* End Service Item */}
       

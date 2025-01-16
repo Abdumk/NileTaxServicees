@@ -9,7 +9,7 @@ function Contact() {
   {/* Section Title */}
   <div className="container section-title" data-aos="fade-up">
     <h2>Contact</h2>
-    <p><span>Need Help?</span> <span className="description-title">Contact Us</span></p>
+    <p><span>Need Help?</span> <span className="description-title"> <p>Get in touch with us for more information</p></span></p>
   </div>{/* End Section Title */}
 
   <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -23,15 +23,27 @@ function Contact() {
             <i className="bi bi-geo-alt flex-shrink-0"></i>
             <div>
               <h3>Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Dumfries, VA, United States, 22025</p>
             </div>
-          </div>{/* End Info Item */}
 
+            
+          </div>{
+          /* End Info Item */}
+ <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <i className="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Service Area</h3>
+              <p>Manassas Park, VA · Woodbridge, VA · Prince William County, VA · Dumfries, VA · Montclair, VA</p>
+            </div>
+          </div>
+
+
+{/*End info item */}
           <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
             <i className="bi bi-telephone flex-shrink-0"></i>
             <div>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
+              <p>+1 571-306-9039</p>
             </div>
           </div>{/* End Info Item */}
 
@@ -39,7 +51,7 @@ function Contact() {
             <i className="bi bi-envelope flex-shrink-0"></i>
             <div>
               <h3>Email Us</h3>
-              <p>info@example.com</p>
+              <p>admin@nilefinancialservices.com</p>
             </div>
           </div>{/* End Info Item */}
 
