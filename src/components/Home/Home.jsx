@@ -15,10 +15,7 @@ AOS.init();
 function Home() {
   return (
     <>
-        {/* <div className="home">
-            <h1>Welcome to Nile Tax Service</h1>
-            <p>Get your taxes done with us</p>
-        </div> */}
+       
 
         <div className="banner">
         <img src={banner} alt="Banner" />
