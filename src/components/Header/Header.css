@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 header {
-  background-color:#ecf0f1; /* Background color of the header */
+  background-color:#0b0b0b; /* Background color of the header */
   padding: 0 0; /* Spacing inside the header */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #2c3e50; /* Text color */
+  color: #e9ecef; /* Text color */
   font-family: 'Poppins', sans-serif;
   font-size: larger;
   font-weight: 400;
@@ -13,7 +13,7 @@ header {
 
 .logo img {
   width: 150px; /* Adjust the width of your logo image */
-  height: 40px;
+  height: 100px;
 }
 
 nav ul {
@@ -30,7 +30,7 @@ nav li {
 nav a {
   box-shadow: inset 0 0 0 0 black;
   text-decoration: none;
-  color: black;
+  color: rgb(248, 248, 248);
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -38,7 +38,7 @@ nav a {
 
 nav a:hover {
   /* box-shadow: inset 100px 0 0 0 green; */
-  /* color: white; */
+   color: white; 
   text-decoration: underline;
   /* Change text color on hover (you can choose any color you like) */
 }

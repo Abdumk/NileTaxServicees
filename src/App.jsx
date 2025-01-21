@@ -9,6 +9,8 @@ import Contact from './components/Contact/Contact';
 import OurService from './components/OurService/OurService';
 import About from './components/About/About';
 import Miniheader from './components/Miniheader/Miniheader';
+import FAQ from './components/FAQ/FAQ';
+import PrivacyPolicy from './components/privacy policy/privacyPolicy';
 
 
 
@@ -29,6 +31,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<OurService />} />
           <Route path="/about" element={<About />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/pp" element={<PrivacyPolicy />} />
+
+
 
 
 

@@ -3,12 +3,13 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './Header.css'
 import Miniheader from '../Miniheader/Miniheader';
-import logo from '../../assets/images/logo.jpg'; 
+import logo from '../../assets/images/nileblacklogo.png'; 
+import FAQ from '../FAQ/FAQ';
 
 function Header() {
   return (
     <>
-    <Miniheader />
+    <Miniheader />   
     
     <header>
       <div className="logo">
@@ -29,6 +30,9 @@ function Header() {
           </li>
           <li>
           <Link to="/contact">Contact us</Link>
+          </li>
+          <li>
+          <Link to="/faq">FAQ?</Link>
           </li>
         </ul>
       </nav>

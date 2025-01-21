@@ -2,8 +2,11 @@ import React from 'react';
 import aboutimg from '../../assets/images/king.jpg';
 import './About.css'; // Import the CSS file for additional styling
 
+import Testimonials from './../Testimonials/Testimonials';
+
 function About() {
   return (
+    <>
     <section id="about" className="about section light-background">
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
@@ -62,6 +65,9 @@ function About() {
         </div>
       </div>
     </section>
+    {/* <Testimonials /> */}
+
+    </>
   );
 }
 

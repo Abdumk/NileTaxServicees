@@ -15,11 +15,11 @@ function OurService() {
       <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div className="service-item position-relative">
           <div className="icon">
-            <i className="bi bi-activity"></i>
+            <i className="bi bi-file-earmark-text"></i>
           </div>
-          <a href="#" className="stretched-link">
+          <div  className="stretched-link">
             <h3>Tax Preparation</h3>
-          </a>
+          </div>
           <p>Assistance with preparing and filing your tax returns accurately and on time.</p>
         </div>
       </div>{/* End Service Item */}
@@ -27,11 +27,11 @@ function OurService() {
       <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div className="service-item position-relative">
           <div className="icon">
-            <i className="bi bi-broadcast"></i>
+            <i className="bi bi-graph-up"></i>
           </div>
-          <a href="#" className="stretched-link">
+          <div  className="stretched-link">
             <h3>Tax Planning</h3>
-          </a>
+          </div>
           <p> Strategic planning to minimize tax liabilities and maximize financial benefits.</p>
         </div>
       </div>{/* End Service Item */}
@@ -39,11 +39,11 @@ function OurService() {
       <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div className="service-item position-relative">
           <div className="icon">
-            <i className="bi bi-easel"></i>
+            <i className="bi bi-journal"></i>
           </div>
-          <a href="#" className="stretched-link">
+          <div className="stretched-link">
             <h3>Bookkeeping</h3>
-          </a>
+          </div>
           <p>Accurate and efficient recording of financial transactions to maintain organized and up-to-date financial records.</p>
         </div>
       </div>{/* End Service Item */}
@@ -51,11 +51,11 @@ function OurService() {
       <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
         <div className="service-item position-relative">
           <div className="icon">
-            <i className="bi bi-bounding-box-circles"></i>
+            <i className="bi bi-briefcase"></i>
           </div>
-          <a href="#" className="stretched-link">
+          <div className="stretched-link">
             <h3>Business Consulting</h3>
-          </a>
+          </div>
           <p>Expert advice to help businesses improve operations, financial performance, and growth strategies.</p>
         </div>
       </div>{/* End Service Item */}
@@ -63,11 +63,11 @@ function OurService() {
       <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
         <div className="service-item position-relative">
           <div className="icon">
-            <i className="bi bi-calendar4-week"></i>
+            <i className="bi bi-check-circle"></i>
           </div>
-          <a href="#" className="stretched-link">
+          <div className="stretched-link">
             <h3>Audit Representation </h3>
-          </a>
+          </div>
           <p> Professional representation during IRS or state tax audits to ensure compliance and resolve issues.</p>
         </div>
       </div>{/* End Service Item */}
@@ -75,11 +75,11 @@ function OurService() {
       <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
         <div className="service-item position-relative">
           <div className="icon">
-            <i className="bi bi-chat-square-text"></i>
+            <i className="bi bi-lightbulb"></i>
           </div>
-          <a href="#" className="stretched-link">
+          <div className="stretched-link">
             <h3>Financial Advisory</h3>
-          </a>
+          </div>
           {/* <p>Return your taxes with Zero Accounting services
 1. Account Preparation for Business
 2. Tax filling
