@@ -66,6 +66,7 @@ function About() {
       </div>
     </section>
     {/* <Testimonials /> */}
+    <Testimonials />
 
     </>
   );

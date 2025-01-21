@@ -623,6 +623,19 @@
     font-size: 13px;
   }
   
+  @media (max-width: 768px) {
+    .footer-links ul, .footer-social ul {
+      display: none;
+    }
+  
+    .footer-links ul.open, .footer-social ul.open {
+      display: block;
+    }
+  
+    .footer-links h4, .footer-social h4 {
+      cursor: pointer;
+    }
+  }
   /*--------------------------------------------------------------
   # Preloader
   --------------------------------------------------------------*/

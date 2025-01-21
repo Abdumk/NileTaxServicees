@@ -33,13 +33,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/pp" element={<PrivacyPolicy />} />
-
-
-
-
-
         </Routes>
-      
       <TawkToWidget />
       <Footer />
     </div>
