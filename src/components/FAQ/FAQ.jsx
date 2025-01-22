@@ -25,18 +25,20 @@ function FAQ() {
               </div>
             </li>
             <li>
-              <i className="bi bi-question-circle"></i>
-              <a data-bs-toggle="collapse" className="collapsed" href="#faq2">
-                How can I contact you?
-                <i className="bi bi-chevron-down icon-show"></i>
-                <i className="bi bi-chevron-up icon-close"></i>
-              </a>
-              <div id="faq2" className="collapse" data-bs-parent=".faq-list">
-                <p>
-                  You can contact us via phone at +1 571-306-9039 or email at admin@nilefinancialservices.com. You can also visit our contact page for more information.
-                </p>
-              </div>
-            </li>
+  <i className="bi bi-question-circle"></i>
+  <a data-bs-toggle="collapse" href="#faq2" className="collapsed">
+    How can I contact you?
+    <i className="bi bi-chevron-down icon-show"></i>
+    <i className="bi bi-chevron-up icon-close"></i>
+  </a>
+  <div id="faq2" className="collapse" data-bs-parent=".faq-list">
+    <p>
+      You can contact us via phone at +1 571-306-9039 or email at admin@nilefinancialservices.com. 
+      You can also visit our contact page for more information.
+    </p>
+  </div>
+</li>
+
             <li>
               <i className="bi bi-question-circle"></i>
               <a data-bs-toggle="collapse" className="collapsed" href="#faq3">
