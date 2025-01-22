@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import Header from './components/Header/Header';
 import TawkToWidget from "./services/TawkToWidget";
 import Home from './components/Home/Home';
@@ -12,33 +12,26 @@ import Miniheader from './components/Miniheader/Miniheader';
 import FAQ from './components/FAQ/FAQ';
 import PrivacyPolicy from './components/privacy policy/privacyPolicy';
 
-
-
-
-
 function App() {
-
-
   return (
     <> 
-    <div>
-      {/* Other components */}
-      
-      <Header />
-     
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/services" element={<OurService />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/pp" element={<PrivacyPolicy />} />
-        </Routes>
-      <TawkToWidget />
-      <Footer />
-    </div>
+      <div>
+        <Router basename="/NileTaxServicees">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/services" element={<OurService />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/pp" element={<PrivacyPolicy />} />
+          </Routes>
+          <TawkToWidget />
+          <Footer />
+        </Router>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
