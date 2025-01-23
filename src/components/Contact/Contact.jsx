@@ -1,5 +1,8 @@
 import React from 'react'
 import TawkToWidget from '../../services/TawkToWidget'
+import { Link } from 'react-router-dom';
+
+ 
 
 function Contact() {
   return (
@@ -23,7 +26,7 @@ function Contact() {
             <i className="bi bi-geo-alt flex-shrink-0"></i>
             <div>
               <h3>Address</h3>
-              <p>Dumfries, VA, United States, 22025</p>
+              <p>4128 ASHMERE CIR,MONTCLAIR VA 22025</p>
             </div>
 
             
@@ -43,7 +46,11 @@ function Contact() {
             <i className="bi bi-telephone flex-shrink-0"></i>
             <div>
               <h3>Call Us</h3>
-              <p>+1 571-306-9039</p>
+              <p className="mt-3"><strong>Phone:</strong> 
+              <span>+1 571-306-9039</span> <Link to="tel:+15713069039" className="ms-2">
+                            <i className="bi bi-telephone-fill"></i> {/* Bootstrap icon */}
+                           </Link></p>
+           
             </div>
           </div>{/* End Info Item */}
 
@@ -51,7 +58,9 @@ function Contact() {
             <i className="bi bi-envelope flex-shrink-0"></i>
             <div>
               <h3>Email Us</h3>
-              <p>admin@nilefinancialservices.com</p>
+              <p className="mt-3"><strong>Email:</strong> 
+              <span>admin@nilefinancialservices.com</span>
+              <Link to="mailto:admin@nilefinancialservices.com"className="ms-2"><i className="bi bi-envelope "></i> </Link> </p>
             </div>
           </div>{/* End Info Item */}
 

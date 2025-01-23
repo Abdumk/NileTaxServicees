@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import Miniheader from '../Miniheader/Miniheader';
-import logo from '../../assets/images/nileblacklogo.png';
+import logo from '../../assets/images/nilebglogo.png';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -70,3 +70,4 @@ function Header() {
 }
 
 export default Header;
+

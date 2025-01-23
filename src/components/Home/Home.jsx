@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css';
 // import banner from '../../assets/images/aa3.jpg'; 
-import banner from '../../assets/images/Banner4.jpg'; 
+import banner from '../../assets/images/nilebanner.png'; 
 // import refundImage from '../../assets/images/Garante.jpg'; 
 import refundImage from '../../assets/images/Banner.jpg'; 
 
@@ -78,7 +78,7 @@ function Home() {
     </div>
     </section>
     <div className="container">
-    <p>We provide comprehensive tax solutions to individuals and businesses. Our team of experienced professionals is dedicated to helping you navigate the complexities of tax regulations and maximize your financial outcomes.</p>
+    <p>We provide comprehensive tax solutions to individuals and businesses. Our team of experienced professionals are dedicated to helping you navigate the complexities of tax regulations and maximize your financial outcomes.</p>
 
    <h2>  Helping is our priority</h2> 
     <p>

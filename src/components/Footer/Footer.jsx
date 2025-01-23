@@ -45,11 +45,19 @@ function Footer() {
             <div className="footer-contact pt-3">
               <p>Dumfries, VA, United States, 22025</p>
               <p>Manassas Park, VA · Woodbridge, VA · Prince William County, VA · Dumfries, VA · Montclair, VA</p>
-              <p className="mt-3"><strong>Phone:</strong> <span>+1 571-306-9039</span></p>
-              <p><strong>Email:</strong> <span>admin@nilefinancialservices.com</span></p>
+              <p className="mt-3"><strong>Phone:</strong> 
+              <span>+1 571-306-9039</span> <Link to="tel:+15713069039" className="ms-2">
+                            <i className="bi bi-telephone-fill"></i> {/* Bootstrap icon */}
+                           </Link></p>
+              <p className="mt-3"><strong>Email:</strong> 
+              <span>admin@nilefinancialservices.com</span>
+              <Link to="mailto:admin@nilefinancialservices.com"className="ms-2">
+            <i className="bi bi-envelope align-items-center"></i>
+           </Link> </p>
             </div>
           </div>
 
+              
           <div className="col-lg-2 col-md-3 footer-links" ref={usefulLinksRef}>
             <h4 onClick={toggleUsefulLinks} className="dropdown-toggle">Useful Links</h4>
             <ul className={isUsefulLinksOpen ? 'open' : ''}>
@@ -102,9 +110,7 @@ function Footer() {
 
       <div className="container copyright text-center mt-4">
         <p>&copy; 2025 Nile Tax Services. All rights reserved.</p>
-        <div className="credits">
-          Designed by <Link to="https://bootstrapmade.com/" onClick={scrollToTop}>BootstrapMade</Link>
-        </div>
+      
       </div>
     </footer>
   );
