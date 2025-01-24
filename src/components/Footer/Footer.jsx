@@ -27,90 +27,92 @@ function Footer() {
   };
 
   return (
-    <footer id="footer" className="footer">
-      <div className="footer-newsletter">
-        <div className="container">
-          <div className="row justify-content-center text-center">
+    <footer id="footer" className="footer-container">
+      <div className="newsletter-section">
+        <div className="newsletter-wrapper">
+          <div className="newsletter-content">
             {/* Newsletter content */}
           </div>
         </div>
       </div>
 
-      <div className="container footer-top">
-        <div className="row gy-4">
-          <div className="col-lg-4 col-md-6 footer-about">
-            <Link to="/" className="d-flex align-items-center" onClick={scrollToTop}>
-              <span className="sitename">Nile Tax Services</span>
+      <div className="footer-wrapper">
+        <div className="footer-content">
+          <div className="footer-about">
+            <Link to="/" className="footer-logo" onClick={scrollToTop}>
+              <span className="site-name">Nile Tax Services</span>
             </Link>
-            <div className="footer-contact pt-3">
+            <div className="contact-details">
               <p>Dumfries, VA, United States, 22025</p>
-              <p>Manassas Park, VA · Woodbridge, VA · Prince William County, VA · Dumfries, VA · Montclair, VA</p>
-              <p className="mt-3"><strong>Phone:</strong> 
-              <span>+1 571-306-9039</span> <Link to="tel:+15713069039" className="ms-2">
-                            <i className="bi bi-telephone-fill"></i> {/* Bootstrap icon */}
-                           </Link></p>
-              <p className="mt-3"><strong>Email:</strong> 
-              <span>admin@nilefinancialservices.com</span>
-              <Link to="mailto:admin@nilefinancialservices.com"className="ms-2">
-            <i className="bi bi-envelope align-items-center"></i>
-           </Link> </p>
+              <p>
+                Manassas Park, VA · Woodbridge, VA · Prince William County, VA <br/>
+                · Dumfries, VA · Montclair, VA
+              </p>
+              <p>
+                <strong>Phone:</strong> +1 571-306-9039
+                <Link to="tel:+15713069039" className="phone-link">
+                  <i className="bi bi-telephone-fill"></i>
+                </Link>
+              </p>
+              <p>
+                <strong>Email:</strong> admin@nilefinancialservices.com
+                <Link to="mailto:admin@nilefinancialservices.com" className="email-link">
+                  <i className="bi bi-envelope"></i>
+                </Link>
+              </p>
             </div>
           </div>
 
-              
-          <div className="col-lg-2 col-md-3 footer-links" ref={usefulLinksRef}>
-            <h4 onClick={toggleUsefulLinks} className="dropdown-toggle">Useful Links</h4>
-            <ul className={isUsefulLinksOpen ? 'open' : ''}>
-              <li><i className="bi bi-chevron-right"></i> <Link to="/" onClick={scrollToTop}>Home</Link> </li>  
-              <li><i className="bi bi-chevron-right"></i> <Link to="/about" onClick={scrollToTop}>About us</Link> </li>
-              <li><i className="bi bi-chevron-right"></i> <Link to="/services" onClick={scrollToTop}>Services</Link> </li>
-              <li><i className="bi bi-chevron-right"></i> <Link to="/contact" onClick={scrollToTop}>Contact us</Link> </li>
-              <li><i className="bi bi-chevron-right"></i> <Link to="/faq" onClick={scrollToTop}>FAQ</Link> </li>
+          <div className="footer-links " ref={usefulLinksRef}>
+            <h4 onClick={toggleUsefulLinks} className="links-header ">Useful Links</h4>
+            <ul className={isUsefulLinksOpen ? 'links-list open' : 'links-list'}>
+              <li><i className="bi bi-chevron-right"></i> <Link to="/" onClick={scrollToTop}>Home</Link></li>
+              <li><i className="bi bi-chevron-right"></i> <Link to="/about" onClick={scrollToTop}>About us</Link></li>
+              <li><i className="bi bi-chevron-right"></i> <Link to="/services" onClick={scrollToTop}>Services</Link></li>
+              <li><i className="bi bi-chevron-right"></i> <Link to="/contact" onClick={scrollToTop}>Contact us</Link></li>
+              <li><i className="bi bi-chevron-right"></i> <Link to="/faq" onClick={scrollToTop}>FAQ</Link></li>
             </ul>
           </div>
 
-          <div className="col-lg-2 col-md-3 footer-links" ref={servicesRef}>
-            <h4 onClick={toggleServices} className="dropdown-toggle">Our Services</h4>
-            <ul className={isServicesOpen ? 'open' : ''}>
-              <li><i className=""></i> Bookkeeping</li>
-              <li><i className=" "></i> Business Consulting</li>
-              <li><i className=" "></i> Audit Representation</li>
-              <li><i className=" "></i> Financial Advisory</li>
-              <li><i className=" "></i> Tax Preparation</li>
-              <li><i className=" "></i> Tax Planning</li>
+          <div className="footer-services" ref={servicesRef}>
+            <h4 onClick={toggleServices} className="services-header">Our Services</h4>
+            <ul className={isServicesOpen ? 'services-list open' : 'services-list'}>
+              <li>Bookkeeping</li>
+              <li>Business Consulting</li>
+              <li>Audit Representation</li>
+              <li>Financial Advisory</li>
+              <li>Tax Preparation</li>
+              <li>Tax Planning</li>
             </ul>
           </div>
 
-          <div className="col-lg-3 col-md-4 footer-social">
-            <h4>Follow Us</h4>
-            <p>Stay connected with us through our social media channels for the latest updates and insights.</p>
-            <div className="social-links d-flex">
-              <Link to="https://twitter.com/Nilefinancials1" className="twitter" target="_blank" rel="noopener noreferrer">
+          <div className="footer-social">
+            <h4 className="social-header">Follow Us</h4>
+            <p className="social-text">Stay connected with us through our social media channels for the latest updates & insights.</p>
+            <div className="social-icons">
+              <Link to="https://twitter.com/Nilefinancials1" className="icon twitter" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-twitter"></i>
               </Link>
-              <Link to="https://facebook.com/NILETAXSERVICES" className="facebook" target="_blank" rel="noopener noreferrer">
+              <Link to="https://facebook.com/NILETAXSERVICES" className="icon facebook" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-facebook"></i>
               </Link>
-              <Link to="https://instagram.com/nilefinancialservices_/" className="instagram" target="_blank" rel="noopener noreferrer">
+              <Link to="https://instagram.com/nilefinancialservices_/" className="icon instagram" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-instagram"></i>
               </Link>
-              <Link to="https://linkedin.com/in/king-demissie-5a882191/" className="linkedin" target="_blank" rel="noopener noreferrer">
+              <Link to="https://linkedin.com/in/king-demissie-5a882191/" className="icon linkedin" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-linkedin"></i>
               </Link>
-              <Link to="https://wa.me/+15713069039" className="whatsapp" target="_blank" rel="noopener noreferrer">
+              <Link to="https://wa.me/+15713069039" className="icon whatsapp" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-whatsapp"></i>
               </Link>
             </div>
-            <br/> 
-            <br/>
-            <Link to="/pp" onClick={scrollToTop}>Privacy Policy</Link>
+            <Link to="/pp" onClick={scrollToTop} className="privacy-link">Privacy Policy</Link>
           </div>
         </div>
       </div>
 
-      <div className="container copyright text-center mt-4">
+      <div className="footer-bottom">
         <p>&copy; 2025 Nile Tax Services. All rights reserved.</p>
-      
       </div>
     </footer>
   );
