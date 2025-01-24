@@ -3,85 +3,42 @@
   padding: 10px 0;
 }
 
-/* .mini-contact-info a,
-.mini-contact-info span {
-  color: rgb(18, 239, 11);
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.mini-contact-info .mini-icon-envelope::before {
-  
-  font-family: FontAwesome;
-  margin-right: 8px;
-  color: white;
-}
-
-.mini-contact-info .mini-icon-phone::before {
-
-  font-family: FontAwesome;
-  margin-right: 8px;
-  color: white;
-}
-
-
-
-.mini-header .mini-topbar .mini-social-links a {
-  margin-left: 15px;
-  font-size: 16px;
-  color: rgb(215, 238, 14);
-}
-
-.mini-social-links a:hover {
-  color: #ffcc00; 
-} */
-
-.mini-header-wrapper .mini-topbar {
+.mini-topbar {
   background-color: #1e2a49;
   height: 40px;
   width: 100%;
-  padding: 0px;
   font-size: 14px;
-  transition: all 0.5s;
 }
 
-.mini-header-wrapper .mini-topbar .mini-contact-info i {
+.mini-contact-info i,
+.mini-social-links i {
   color: rgb(18, 239, 11);
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.mini-contact-info a,
+.mini-social-links a {
   text-decoration: none;
+  color: rgb(18, 239, 11);
 }
 
-.mini-header-wrapper .mini-topbar .mini-contact-info i a,
-.mini-header-wrapper .mini-topbar .mini-contact-info i span {
-  padding-left: 5px;
-  color: var(--contrast-color);
+.mini-social-links a {
+  margin-left: 15px;
 }
 
-@media (max-width: 575px) {
+.mini-social-links a:hover {
+  color: #ffcc00;
+}
 
-  .mini-header-wrapper .mini-topbar .mini-contact-info i a,
-  .mini-header-wrapper .mini-topbar .mini-contact-info i span {
-    font-size: 13px;
+/* Hide text on small screens */
+.mini-contact-info span {
+  display: none;
+}
+
+/* Show text on medium and larger screens */
+@media (min-width: 768px) {
+  .mini-contact-info span {
+    display: inline; /* Show the text next to icons */
+    margin-left: 5px;
   }
-}
-
-.mini-header-wrapper .mini-topbar .mini-contact-info i a {
-  line-height: 0;
-  transition: 0.3s;
-}
-
-.mini-header-wrapper .mini-topbar .mini-contact-info i a:hover {
-  color: var(--contrast-color);
-  text-decoration: underline;
-}
-
-.mini-header-wrapper .mini-topbar .mini-social-links a {
-  color: rgb(215, 238, 14);
-  line-height: 0;
-  transition: 0.3s;
-  margin-left: 20px;
-}
-
-.mini-header-wrapper .mini-topbar .mini-social-links a:hover {
-  color: var(--contrast-color);
 }

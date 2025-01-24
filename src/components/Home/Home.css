@@ -199,6 +199,27 @@
       font-size: 13px;
     }
   }
+
+  @media (max-width: 768px) {
+    .banner img {
+      height: 250px; /* Adjust the height for smaller screens */
+      object-fit: cover; /* Keep the image covering the container */
+    }
+  
+    .banner {
+      margin-bottom: 10px; /* Reduce the spacing for better fit */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner img {
+      height: 200px; /* Further reduce height for very small screens */
+    }
+  
+    .banner {
+      margin-bottom: 5px; /* Minimize spacing on extra-small screens */
+    }
+  }
   
   .header .topbar .contact-info i a {
     line-height: 0;
