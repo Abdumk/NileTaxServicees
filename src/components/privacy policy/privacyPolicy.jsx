@@ -7,13 +7,13 @@ function PrivacyPolicy() {
       <div className="container">
         <div className="section-title" data-aos="fade-up">
           <h2>Privacy Policy</h2>
-         <p> Thank you for visiting the Nile Tax Services website</p>
+         <p> Thank you for visiting the Nile Financial Services website</p>
           <p>Learn more about our privacy practices</p>
         </div>
         <div className="content" data-aos="fade-up" data-aos-delay="100">
           <h3>Introduction</h3>
           <p>
-            At Nile Tax Services, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
+            At Nile Financial Services, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
           </p>
           <h3>Information We Collect</h3>
           <p>

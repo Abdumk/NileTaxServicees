@@ -24,11 +24,11 @@ function About() {
             <div className="about-content ps-0 ps-lg-3">
               <h3>Introduction</h3>
               <p className="fst-italic">
-                Welcome to Nile Tax Services. We are dedicated to providing comprehensive tax solutions and financial advice to help you achieve your goals. Our experienced team is committed to delivering high-quality services tailored to your needs.
+                Welcome to Nile Financial Services. We are dedicated to providing comprehensive tax solutions and financial advice to help you achieve your goals. Our experienced team is committed to delivering high-quality services tailored to your needs.
               </p>
               <h3>Our Purpose</h3>
               <p className="fst-italic">
-                At Nile Tax Services, our mission is to provide comprehensive tax solutions and financial advice to help you achieve your goals. Our experienced team is committed to delivering high-quality services tailored to your needs.
+                At Nile Financial Services, our mission is to provide comprehensive tax solutions and financial advice to help you achieve your goals. Our experienced team is committed to delivering high-quality services tailored to your needs.
               </p>
               <ul>
                 <li>

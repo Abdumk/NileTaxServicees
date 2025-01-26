@@ -40,7 +40,7 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-about">
             <Link to="/" className="footer-logo" onClick={scrollToTop}>
-              <span className="site-name">Nile Tax Services</span>
+              <span className="site-name">Nile Financial Services</span>
             </Link>
             <div className="contact-details">
               <p>Dumfries, VA, United States, 22025</p>
@@ -112,7 +112,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2025 Nile Tax Services. All rights reserved.</p>
+        <p>&copy; 2025 Nile Financial Services. All rights reserved.</p>
       </div>
     </footer>
   );

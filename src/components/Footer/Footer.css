@@ -3,7 +3,7 @@
   background-color: #1e1e1e;
   color: #ffffff;
   font-family: Arial, sans-serif;
-  padding: 20px 0;
+  padding: 20px 10px 20px 10px ;
   animation: fadeIn 1.2s ease-in-out;
 }
 
@@ -20,7 +20,7 @@
 
 /* Footer Wrapper */
 .footer-wrapper {
-  margin-top: 20px;
+  margin: 10px 10px 20px 10px;
 }
 
 .footer-content {
@@ -77,13 +77,13 @@
 .services-header {
   font-size: 1rem;
   cursor: pointer;
-  color: #f7fafb;
+  color: rgb(255, 166, 0); /* Default color */
   transition: color 0.3s ease;
 }
 
 .links-header:hover,
 .services-header:hover {
-  color: #eff2f0;
+  color: #f1c40f; /* Hover color */
 }
 
 .links-list,
@@ -94,7 +94,7 @@
   max-height: 0;
   opacity: 0;
   transition: max-height 0.5s ease, opacity 0.5s ease;
-  color: #eff2f0;
+   color: #eff2f0;
 }
 
 .links-list.open,
@@ -114,10 +114,18 @@
   margin-right: 10px;
   color: #00c851;
 }
+.footer-links .links-list li {
+  color: #eff2f0;
+}
+
+.footer-links .links-list li a {
+   color: #eff2f0 !important; /* Ensures links inside the list items are also styled */
+}
+
 
 .links-list li:hover,
 .services-list li:hover {
-  transform: translateX(5px);
+  transform: translateX(10px);
 }
 
 .links-list li {
@@ -131,16 +139,19 @@
 }
 
 .social-header {
-  color: #f4f5f6;
+  color: rgb(255, 166, 0); /* Default color */
 }
 
+.social-header:hover {
+  color: #f1c40f; /* Hover color */
+}
 .social-icons {
   display: flex;
   animation: fadeIn 1.8s ease-in-out;
 }
 
 .social-icons .icon {
-  margin-right: 10px;
+  margin-right: 25px;
   font-size: 1.5rem;
   color: #f6f94c;
   transition: transform 0.3s ease, color 0.3s ease;
@@ -154,9 +165,10 @@
 .privacy-link {
   display: block;
   margin-top: 20px;
-  color: #d2f50a;
+  color: #3df50a;
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease;
+  font-size: 1.5rem;
 }
 
 .privacy-link:hover {
@@ -199,7 +211,7 @@
 @media screen and (max-width: 768px) {
   .footer-content {
     flex-direction: column;
-    align-items: flex-start;
+    align-items:flex-start;
   }
 
   .footer-links,

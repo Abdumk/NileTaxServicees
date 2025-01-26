@@ -1,142 +1,140 @@
-import React from 'react'
+import React from 'react';
 import './Home.css';
-// import banner from '../../assets/images/aa3.jpg'; 
-import banner from '../../assets/images/nilebanner.png'; 
-// import refundImage from '../../assets/images/Garante.jpg'; 
-import refundImage from '../../assets/images/Banner.jpg'; 
-
-
+import banner from '../../assets/images/nilebanner.png';
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 AOS.init();
+
 function Home() {
   return (
     <>
-       
-
-        <div className="banner">
+      <div className="banner">
         <img src={banner} alt="Banner" />
       </div>
       <div className="content">
-        <h1>Welcome to Nile Tax Services</h1>
-        <p>Explore our services and offerings.</p>
-      </div>
- <section id="featured-services" className="featured-services section">
-    <div className="container">
-      <div className="row gy-4">
-        <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-          <div className="service-item position-relative">
-            <div className="icon">
-              <i className="bi bi-calculator"></i>
-            </div>
-            <h4>
-              <div className="stretched-link">Comprehensive Tax Solutions</div>
-            </h4>
-            <p>We provide a full range of tax services to meet the needs of individuals and businesses. Our services ensure compliance with tax regulations and aim to maximize financial outcomes. Our experienced team is here to guide you.</p>
-          </div>
+        <h1 className="content-title">NILE FINANCIAL SERVICES LLC</h1>
+        <p className="content-subtitle">Your Trusted Partner for Tax Preparation & Financial Solutions</p>
+        <div className="contact-info">
+          <p>📞 Call Now: <a href="tel:571-306-9039">571-306-9039</a></p>  <br/>
+          <p>🌐 Visit us: <a href="http://www.nilefinancialservices.com" target="_blank" rel="noopener noreferrer">www.nilefinancialservices.com</a></p>
         </div>
-
-        <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-          <div className="service-item position-relative">
-            <div className="icon">
-              <i className="bi bi-person-lines-fill"></i>
-            </div>
-            <h4>
-              <div className="stretched-link">Expert Financial Advisory</div>
-            </h4>
-            <p>Our team offers personalized financial advice to help you achieve your financial goals and secure your future. We take the time to understand your unique financial situation and provide tailored solutions for informed decisions.</p>
-          </div>
-        </div>
-
-        <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-          <div className="service-item position-relative">
-            <div className="icon">
-              <i className="bi bi-briefcase"></i>
-            </div>
-            <h4>
-              <div className="stretched-link">Business Consulting</div>
-            </h4>
-            <p>We assist businesses in improving operations, financial performance, and growth strategies through expert consulting services. Our consultants work closely with you to identify opportunities for improvement and implement effective solutions.</p>
-          </div>
-        </div>
-
-        <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-          <div className="service-item position-relative">
-            <div className="icon">
-              <i className="bi bi-wallet2"></i>
-            </div>
-            <h4>
-              <div className="stretched-link">Bookkeeping and Accounting</div>
-            </h4>
-            <p>We offer accurate and efficient bookkeeping and accounting services to keep your financial records organized and up-to-date. Our services include managing accounts payable and receivable, payroll processing, and financial reporting.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-    <div className="container">
-    <p>We provide comprehensive tax solutions to individuals and businesses. Our team of experienced professionals are dedicated to helping you navigate the complexities of tax regulations and maximize your financial outcomes.</p>
-
-   <h2>  Helping is our priority</h2> 
-    <p>
-    This website exists to provide potential clients with information concerning our firm, low-pressure approach to personal and professional services. In Nile Financial Services LLC, We have an excellent client-retention rate, and we are extremely proud of the high-quality bookkeeping and tax filing services.
-    </p>
-       <h2>The Perfect Solution</h2>
-<p>Please, feel free to browse our website to see the various services we are offering, as well as the many helpful resources we provide. When you are ready to learn more about what we can do for you, we encourage you to contact us.</p>
-
+        <div className="tax-season">
+  <h3 className="tax-season-title">
+    <img src="https://img.icons8.com/fluency/48/000000/tax.png" alt="Tax Icon" className="tax-icon" />
+    Tax Season 2025 is Here!
+  </h3>
+  <p className="tax-season-text">Get your taxes done by experts you can trust!</p>
 </div>
-<section id="why-work-with-us" className="why-work-with-us section">
-      <div className="container">
-        <div className="section-title" data-aos="fade-up">
-          <h2>Why Work With Us?</h2>
-          <p>Discover the reasons to choose us as your trusted partner</p>
-        </div>
-        <div className="points-list" data-aos="fade-up" data-aos-delay="100">
-          <ul>
-            <li>
-              <i className="bi bi-check-circle"></i> We deliver high-quality solutions tailored to your needs.
-            </li>
-            <li>
-              <i className="bi bi-check-circle"></i> Our team has extensive experience across industries.
-            </li>
-            <li>
-              <i className="bi bi-check-circle"></i> We prioritize customer satisfaction and long-term relationships.
-            </li>
-            <li>
-              <i className="bi bi-check-circle"></i> Innovative and cost-effective services to ensure value.
-            </li>
-            <li>
-              <i className="bi bi-check-circle"></i> Dedicated support and fast response times.
-            </li>
-          </ul>
-        </div>
-
-            <div className="transform-section">
-            <h2>We Transform Your Problems into Creative Solutions</h2>
-            <div className="row align-items-center">
-              <div className="col-lg-4">
-                <img src={refundImage} alt="Refund Tracker" className="img-fluid" />
+      </div>
+      <section id="featured-services" className="featured-services section">
+        <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <h2>We provide</h2>
+          </div>
+          <div className="row gy-4">
+            <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+              <div className="service-item position-relative">
+                <div className="icon">
+                  <i className="bi bi-file-earmark-text"></i>
+                </div>
+                <h4>
+                  <div className="stretched-link">Individual & Business Tax Preparation</div>
+                </h4>
+                <p>Our expert team provides comprehensive tax preparation services for both individuals and businesses. We ensure accurate and timely filing, maximizing your deductions and minimizing your liabilities.</p>
               </div>
-              <div className="col-lg-8">
-                <p>The IRS issues more than 9 out of 10 refunds in less than 21 days. However, it’s possible your tax return may require additional review and take longer. Where’s My Refund? has the most up to date information available about your refund. The tool is updated no more than once a day so you don’t need to check more often.</p>
-                <p>At Nile Tax Services, we understand that every client is unique and has specific needs. That's why we take the time to get to know you and your business, so we can provide the best possible solutions. Our team of experts is dedicated to helping you achieve your financial goals and maximize your tax savings. Whether you need help with tax planning, preparation, or representation, we have the knowledge and experience to guide you through the process. Contact us today to learn more about how we can help you succeed.</p>
-                <p>You will get personalized refund information based on the processing of your tax return. The tool will provide an actual refund date as soon as the IRS processes your tax return and approves your refund.</p>
-                <p>You can use Where’s My Refund to start checking on the status of your return within 24 hours after we have received your e-filed return or 4 weeks after you mail a paper return. Where’s My Refund? has a tracker that displays progress through 3 stages:</p>
-                <ul className="refund-stages">
-                  <li>Refund Sent</li>
-                  <li>Return Received</li>
-                  <li>Refund Approved</li>
-                </ul>
+            </div>
+
+            <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div className="service-item position-relative">
+                <div className="icon">
+                  <i className="bi bi-lightning-charge"></i>
+                </div>
+                <h4>
+                  <div className="stretched-link">E-file & Fast Refunds</div>
+                </h4>
+                <p>Experience the convenience of electronic filing with our e-file services. Get your refunds faster and securely with our efficient e-filing process, ensuring you receive your money as quickly as possible.</p>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div className="service-item position-relative">
+                <div className="icon">
+                  <i className="bi bi-calendar-check"></i>
+                </div>
+                <h4>
+                  <div className="stretched-link">Tax Planning & Consultation</div>
+                </h4>
+                <p>Our tax planning and consultation services help you strategize and plan for future tax obligations. We provide personalized advice to optimize your tax situation and ensure compliance with all regulations.</p>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+              <div className="service-item position-relative">
+                <div className="icon">
+                  <i className="bi bi-wallet2"></i>
+                </div>
+                <h4>
+                  <div className="stretched-link">Affordable Rates & Personalized Service</div>
+                </h4>
+                <p>We offer competitive pricing for all our services without compromising on quality. Our personalized approach ensures that each client receives tailored solutions to meet their unique financial needs.</p>
               </div>
             </div>
           </div>
-      </div>
-    </section>
+        </div>
+      </section>
+      <section id="why-work-with-us" className="why-work-with-us section">
+        <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <h2>Why Choose Us?</h2>
+          </div>
+          <div className="points-list row" data-aos="fade-up" data-aos-delay="100">
+            <div className="col-md-6">
+              <div className="point-item">
+                <i className="bi bi-check-circle"></i>
+                <p>Over 10 years of experience</p>
+              </div>
+              <div className="point-item">
+                <i className="bi bi-check-circle"></i>
+                <p>Friendly, professional service</p>
+              </div>
+              <div className="point-item">
+                <i className="bi bi-check-circle"></i>
+                <p>Maximum deductions & credits to save you money</p>
+              </div>
+              <div className="point-item">
+                <i className="bi bi-check-circle"></i>
+                <p>Safe, secure, and confidential handling of your information</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section id="contact-us-today" className="contact-us-today section">
+        <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <h2>Contact Us Today</h2>
+          </div>
+          <div className="contact-details row" data-aos="fade-up" data-aos-delay="100">
+            <div className="col-md-6">
+              <div className="contact-item">
+                <i className="bi bi-geo-alt"></i>
+                <p>Convenient Location & Flexible Hours</p>
+              </div>
+              <div className="contact-item">
+                <i className="bi bi-clock"></i>
+                <p>Fast and Efficient Service</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

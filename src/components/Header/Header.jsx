@@ -39,7 +39,7 @@ function Header() {
       <header>
         <div className="logo">
           <Link to="/" onClick={scrollToTop}>
-            <img src={logo} alt="Nile Tax Services Logo" />
+            <img src={logo} alt="Nile Financial Services Logo" />
           </Link>
         </div>
         <button className="hamburger" onClick={toggleMenu}>

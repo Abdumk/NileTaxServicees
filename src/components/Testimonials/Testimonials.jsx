@@ -18,7 +18,7 @@ const Testimonials = () => {
             <Carousel.Item>
               <div className="testimonial-item">
                 <img src={abd } alt="John Doe" className="testimonial-img" />
-                <p>"Nile Tax Services helped me save a lot on my taxes!"</p>
+                <p>"Nile Financial Services helped me save a lot on my taxes!"</p>
                 <h4>John Doe</h4>
               </div>
             </Carousel.Item>
