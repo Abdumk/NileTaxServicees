@@ -43,10 +43,11 @@ function Footer() {
               <span className="site-name">Nile Financial Services</span>
             </Link>
             <div className="contact-details">
-              <p>Dumfries, VA 22025, United States</p>
+              <p>Dumfries, VA </p>
               <p>
-                Alexandria, VA · Fairfax, VA · Washington, DC · Maryland
-              </p>
+  Alexandria, VA&nbsp;&nbsp;&nbsp;Fairfax, VA&nbsp;&nbsp;&nbsp;Washington, DC&nbsp;&nbsp;&nbsp;Maryland, United States
+</p>
+
               <p>
                 <strong>Phone:</strong> +1 571-306-9039
                 <Link to="tel:+15713069039" className="phone-link">
