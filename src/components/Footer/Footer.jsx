@@ -77,13 +77,14 @@ function Footer() {
           <div className="footer-services" ref={servicesRef}>
             <h4 onClick={toggleServices} className="services-header">Our Services</h4>
             <ul className={isServicesOpen ? 'services-list open' : 'services-list'}>
-              <li>Bookkeeping</li>
-              <li>Business Consulting</li>
-              <li>Audit Representation</li>
-              <li>Financial Advisory</li>
-              <li>Tax Preparation</li>
-              <li>Tax Planning</li>
-            </ul>
+  <li>Bookkeeping/Accounting</li>
+  <li>E-file & Fast Refunds</li>
+  <li>Tax Planning & Consultation</li>
+  <li>Business Consulting</li>
+  <li>Affordable Rates & Personalized Service</li>
+  <li>Individual & Business Tax Preparation</li>
+
+</ul> 
           </div>
 
           <div className="footer-social">

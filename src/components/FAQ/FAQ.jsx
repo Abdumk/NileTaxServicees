@@ -1,5 +1,6 @@
 import React from 'react';
 import './FAQ.css'; // Import the CSS file for additional styling
+import { Link } from 'react-router-dom';
 
 function FAQ() {
   return (
@@ -20,8 +21,8 @@ function FAQ() {
               </a>
               <div id="faq1" className="collapse" data-bs-parent=".faq-list">
                 <p>
-                  We offer comprehensive tax solutions, expert financial advisory, business consulting, and bookkeeping and accounting services.
-                </p>
+                We offer Tax Preparation, Bookkeeping, E-file & Fast Refunds, Tax Planning, Personalized Service, and Business Consulting.
+                 </p>
               </div>
             </li>
             <li>
@@ -32,10 +33,12 @@ function FAQ() {
     <i className="bi bi-chevron-up icon-close"></i>
   </a>
   <div id="faq2" className="collapse" data-bs-parent=".faq-list">
-    <p>
-      You can contact us via phone at +1 571-306-9039 or email at admin@nilefinancialservices.com. 
-      You can also visit our contact page for more information.
-    </p>
+  <p>
+  You can contact us via phone at <a href="tel:+15713069039">+1 571-306-9039</a> or email at 
+  <a href="mailto:admin@nilefinancialservices.com">admin@nilefinancialservices.com</a>. 
+  Visit our <Link to="/contact" style={{ color: '#007bff', textDecoration: 'none' }}>contact page</Link> for more information.
+</p>
+
   </div>
 </li>
 
@@ -47,9 +50,10 @@ function FAQ() {
                 <i className="bi bi-chevron-up icon-close"></i>
               </a>
               <div id="faq3" className="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Our refund policy is designed to ensure customer satisfaction. Please contact us directly for more details about our refund policy.
-                </p>
+              <p>
+Our refund policy ensures the maximum legal return and is designed to prioritize customer satisfaction. Please contact us directly for more details.
+ </p>
+
               </div>
             </li>
             <li>

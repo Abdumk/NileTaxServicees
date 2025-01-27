@@ -12,17 +12,7 @@ function OurService() {
 
   <div className="container">
     <div className="row gy-4">
-      <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div className="service-item position-relative">
-          <div className="icon">
-            <i className="bi bi-file-earmark-text"></i>
-          </div>
-          <div  className="stretched-link">
-            <h3>Tax Preparation</h3>
-          </div>
-          <p>Assistance with preparing and filing your tax returns accurately and on time.</p>
-        </div>
-      </div>{/* End Service Item */}
+      
 
       <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div className="service-item position-relative">
@@ -30,9 +20,9 @@ function OurService() {
             <i className="bi bi-graph-up"></i>
           </div>
           <div  className="stretched-link">
-            <h3>Tax Planning</h3>
+            <h3>Tax Planning & Consultation</h3>
           </div>
-          <p> Strategic planning to minimize tax liabilities and maximize financial benefits.</p>
+          <p> Professional guidance to reduce tax liabilities and maximize financial outcomes through strategic planning and advice.</p>
         </div>
       </div>{/* End Service Item */}
 
@@ -42,12 +32,47 @@ function OurService() {
             <i className="bi bi-journal"></i>
           </div>
           <div className="stretched-link">
-            <h3>Bookkeeping</h3>
+            <h3>Bookkeeping/Accounting</h3>
           </div>
-          <p>Accurate and efficient recording of financial transactions to maintain organized and up-to-date financial records.</p>
+          <p>Precise financial management, tracking income, expenses, and accounts to maintain accurate business records.</p>
         </div>
       </div>{/* End Service Item */}
 
+      <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div className="service-item position-relative">
+          <div className="icon">
+            <i className="bi bi-briefcase"></i>
+          </div>
+          <div className="stretched-link">
+            <h3>E-file & Fast Refunds</h3>
+          </div>
+          <p> Reliable electronic tax filing for faster processing and quick access to refunds directly from tax authorities.
+          </p>
+        </div>
+      </div>{/* End Service Item */}
+
+      <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div className="service-item position-relative">
+          <div className="icon">
+            <i className="bi bi-check-circle"></i>
+          </div>
+          <div className="stretched-link">
+            <h3>Affordable Rates & Personalized Service</h3>
+          </div>
+          <p>Budget-friendly financial services customized to meet individual and business needs with care and precision.</p>
+        </div>
+      </div>{/* End Service Item */}
+      <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div className="service-item position-relative">
+          <div className="icon">
+            <i className="bi bi-file-earmark-text"></i>
+          </div>
+          <div  className="stretched-link">
+            <h3>Individual & Business Tax Preparation</h3>
+          </div>
+          <p>Expert tax preparation services tailored to individuals and businesses, ensuring accurate and compliant filings.</p>
+        </div>
+      </div>{/* End Service Item */}
       <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
         <div className="service-item position-relative">
           <div className="icon">
@@ -59,38 +84,7 @@ function OurService() {
           <p>Expert advice to help businesses improve operations, financial performance, and growth strategies.</p>
         </div>
       </div>{/* End Service Item */}
-
-      <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-        <div className="service-item position-relative">
-          <div className="icon">
-            <i className="bi bi-check-circle"></i>
-          </div>
-          <div className="stretched-link">
-            <h3>Audit Representation </h3>
-          </div>
-          <p> Professional representation during IRS or state tax audits to ensure compliance and resolve issues.</p>
-        </div>
-      </div>{/* End Service Item */}
-
-      <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-        <div className="service-item position-relative">
-          <div className="icon">
-            <i className="bi bi-lightbulb"></i>
-          </div>
-          <div className="stretched-link">
-            <h3>Financial Advisory</h3>
-          </div>
-          {/* <p>Return your taxes with Zero Accounting services
-1. Account Preparation for Business
-2. Tax filling
-3. Preparation of Financial report
-4.Personal income tax filling & Property Tax .
-5. Financial consultation
-
-Kindly contact zero Accounting services Authorized Accounting firm located near Thimphu swimming pool.whatsapp 77370793 or 77221936</p>*/}
-          <p>Personalized financial advice to help you achieve your financial goals and secure your future.</p> 
-        </div>
-      </div>{/* End Service Item */}
+       
       
     </div>
   </div>

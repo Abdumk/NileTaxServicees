@@ -36,7 +36,7 @@ function Contact() {
             <i className="bi bi-geo-alt flex-shrink-0"></i>
             <div>
               <h3>Service Area</h3>
-              <p>Manassas Park, VA · Woodbridge, VA · Prince William County, VA · Dumfries, VA · Montclair, VA</p>
+              <p>Alexandria, VA · Fairfax, VA · Washington, DC · Maryland</p> 
             </div>
           </div>
 

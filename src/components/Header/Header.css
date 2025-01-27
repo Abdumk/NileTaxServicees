@@ -62,6 +62,7 @@ nav a:hover {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+    padding: 0;
   }
 
   nav {

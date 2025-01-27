@@ -34,31 +34,36 @@ function About() {
                 <li>
                   <i className="bi bi-diagram-3"></i>
                   <div>
-                    <h4>Comprehensive Tax Solutions</h4>
-                    <p>We offer a full range of tax services to meet the needs of individuals and businesses, ensuring compliance and maximizing financial outcomes.</p>
+                    <h4>Individual & Business Tax Preparation</h4>
+                    <p> Accurate tax preparation services for individuals and businesses, ensuring compliance and maximizing outcomes.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <i className="bi bi-fullscreen-exit"></i>
                   <div>
-                    <h4>Expert Financial Advisory</h4>
-                    <p>Our team provides personalized financial advice to help you achieve your financial goals and secure your future.</p>
+                    <h4>Bookkeeping/Accounting</h4>
+                    <p> Reliable bookkeeping and accounting services to keep financial records organized and up-to-date.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <i className="bi bi-briefcase"></i>
                   <div>
-                    <h4>Business Consulting</h4>
-                    <p>We assist businesses in improving operations, financial performance, and growth strategies through expert consulting services.</p>
+                    <h4>E-file & Fast Refunds</h4>
+                    <p>Quick and secure e-filing with fast tax refunds for smoother and faster processing.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <i className="bi bi-book"></i>
                   <div>
-                    <h4>Bookkeeping and Accounting</h4>
-                    <p>We offer accurate and efficient bookkeeping and accounting services to keep your financial records organized and up-to-date.</p>
+                    <h4>Affordable Rates & Personalized Service</h4>
+                    <p>Cost-effective, personalized services tailored to meet your unique financial needs.
+                    </p>
                   </div>
                 </li>
+             
               </ul>
             </div>
           </div>
