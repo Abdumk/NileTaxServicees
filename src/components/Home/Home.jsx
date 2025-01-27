@@ -19,7 +19,8 @@ function Home() {
         <p className="content-subtitle">Your Trusted Partner for Tax Preparation & Financial Solutions</p>
         <div className="contact-info">
           <p>📞 Call Now: <a href="tel:571-306-9039">571-306-9039</a></p>  <br/>
-          <p>🌐 Visit us: <a href="http://www.nilefinancialservices.com" target="_blank" rel="noopener noreferrer">www.nilefinancialservices.com</a></p>
+          <p>📧 Contact us: <a href="mailto:admin@nilefinancialservices.com">admin@nilefinancialservices.com</a></p>
+
         </div>
         <div className="tax-season">
   <h3 className="tax-season-title">

@@ -9,6 +9,7 @@ function FAQ() {
         <div className="section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
           <p>Find answers to common questions about our services</p>
+          <p>"Have questions? Our chatbot is available for immediate help. Just click the chat button in the bottom-right corner!"</p>
         </div>
         <div className="faq-list" data-aos="fade-up" data-aos-delay="100">
           <ul>

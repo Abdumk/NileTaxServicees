@@ -43,10 +43,9 @@ function Footer() {
               <span className="site-name">Nile Financial Services</span>
             </Link>
             <div className="contact-details">
-              <p>Dumfries, VA, United States, 22025</p>
+              <p>Dumfries, VA 22025, United States</p>
               <p>
-                Manassas Park, VA · Woodbridge, VA · Prince William County, VA <br/>
-                · Dumfries, VA · Montclair, VA
+                Alexandria, VA · Fairfax, VA · Washington, DC · Maryland
               </p>
               <p>
                 <strong>Phone:</strong> +1 571-306-9039

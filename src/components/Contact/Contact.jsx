@@ -11,10 +11,18 @@ function Contact() {
 
   {/* Section Title */}
   <div className="container section-title" data-aos="fade-up">
-    <h2>Contact</h2>
-    <p><span>Need Help?</span> <span className="description-title"> <p>Get in touch with us for more information</p></span></p>
-  </div>{/* End Section Title */}
-
+  <h2>Contact Us</h2>
+  <p>
+    <strong>Need Help?</strong> 
+    <br />
+    Get in touch with us for more information or assistance with our services.
+  </p>
+  <p className="instant-support">
+    <em>"Need instant support? Use the chat button in the bottom-right corner for quick responses."</em>
+  </p>
+</div>
+{/* End Section Title */}
+ 
   <div className="container" data-aos="fade-up" data-aos-delay="100">
 
     <div className="row gy-4">
@@ -26,7 +34,7 @@ function Contact() {
             <i className="bi bi-geo-alt flex-shrink-0"></i>
             <div>
               <h3>Address</h3>
-              <p>4128 ASHMERE CIR,MONTCLAIR VA 22025</p>
+              <p>4128 Ashmere Cir, Montclair, VA 22025, United States</p>
             </div>
 
             
@@ -64,15 +72,22 @@ function Contact() {
             </div>
           </div>{/* End Info Item */}
 
-         
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24886.135354122882!2d-77.46986866775732!3d38.76904965256095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b65b73e923b1b9%3A0xa7bc0b3cef6f871c!2sManassas%20Park%2C%20VA%2020111!5e0!3m2!1sen!2sus!4v1737069085464!5m2!1sen!2sus" 
+          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24886.135354122882!2d-77.46986866775732!3d38.76904965256095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b65b73e923b1b9%3A0xa7bc0b3cef6f871c!2sManassas%20Park%2C%20VA%2020111!5e0!3m2!1sen!2sus!4v1737069085464!5m2!1sen!2sus" 
             frameBorder="0" 
             style={{ border: 0, width: '100%', height: '270px' }}
            allowfullscreen="" 
            loading="lazy" 
            referrerpolicy="no-referrer-when-downgrade">
 
-           </iframe>
+           </iframe> */}
+
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24857.07233841807!2d-77.32243756748917!3d38.852288612330796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64e96394b91cd%3A0x72326e785448640!2sFairfax%2C%20VA%2C%20USA!5e0!3m2!1sen!2set!4v1738005199393!5m2!1sen!2set" frameBorder="0" 
+            style={{ border: 0, width: '100%', height: '270px' }}
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+
+            </iframe>
         </div>
       </div>
 

@@ -5,7 +5,7 @@
 
 .mini-topbar {
   background-color: #1e2a49;
-  height: 40px;
+  height: 30px;
   width: 100%;
   font-size: 14px;
 }
@@ -35,10 +35,14 @@
   display: none;
 }
 
+
 /* Show text on medium and larger screens */
+
 @media (min-width: 768px) {
+  
   .mini-contact-info span {
     display: inline; /* Show the text next to icons */
     margin-left: 5px;
   }
+ 
 }

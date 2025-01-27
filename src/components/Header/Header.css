@@ -62,9 +62,12 @@ nav a:hover {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
-    padding: 0;
+    
   }
-
+  .logo img {
+    width: 135px; /* Adjust the width of your logo image */
+    height: 70px;
+  }
   nav {
     display: none;
     flex-direction: column;
