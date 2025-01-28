@@ -1,0 +1,81 @@
+/* ServiceItem.css */
+.service-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .irs-image {
+    width: 35%;
+    height: 400px;
+    margin-right: 80px;
+    filter: brightness(1.4); /* Slightly darkens the image for better readability of overlayed text */
+    border-radius: 8px; /* Optional: Adds subtle rounded corners */
+  }
+  
+  .service-item-content {
+    max-width: 500px;
+  }
+  
+  .service-item-content h4 {
+    font-size: 1.7rem;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .service-item-content p {
+    font-size: 1.2rem;
+  color: #666;
+  
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .service-item-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .irs-image {
+      width: 80%;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .service-item-content {
+      max-width: 100%;
+    }
+  
+    .service-item-content h4 {
+      font-size: 1.5rem;
+    }
+  
+    .service-item-content p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-item-container {
+      padding: 20px 10px;
+    }
+  
+    .irs-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .service-item-content h4 {
+      font-size: 1.2rem;
+    }
+  
+    .service-item-content p {
+      font-size: 0.9rem;
+    }
+  }

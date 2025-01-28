@@ -5,6 +5,7 @@ import banner from '../../assets/images/nilebanner.png';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ServiceItem from '../ServiceItem/ServiceItem';
 
 AOS.init();
 
@@ -30,6 +31,10 @@ function Home() {
   <p className="tax-season-text">Get your taxes done by experts you can trust!</p>
 </div>
       </div>
+
+        {/* Insert ServiceItem component in the middle of the home page */}
+        <ServiceItem />
+
       <section id="featured-services" className="featured-services section">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
@@ -86,6 +91,7 @@ function Home() {
           </div>
         </div>
       </section>
+     
       <section id="why-work-with-us" className="why-work-with-us section">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
@@ -109,6 +115,10 @@ function Home() {
                 <i className="bi bi-check-circle"></i>
                 <p>Safe, secure, and confidential handling of your information</p>
               </div>
+              <div className="point-item">
+          <i className="bi bi-check-circle"></i>
+          <p>We are an authorized IRS e-file provider</p>
+        </div>
             </div>
             
           </div>

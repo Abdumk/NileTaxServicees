@@ -40,9 +40,9 @@ function PrivacyPolicy() {
             If you have any questions about this Privacy Policy, please contact us at:
           </p>
           <p>
-            <strong>Email:</strong> admin@nilefinancialservices.com<br />
-            <strong>Phone:</strong> +1 571-306-9039
-          </p>
+  <strong>Email:</strong> <a href="mailto:admin@nilefinancialservices.com">admin@nilefinancialservices.com</a><br />
+  <strong>Phone:</strong> <a href="tel:+15713069039">+1 571-306-9039</a>
+</p>
         </div>
       </div>
     </section>

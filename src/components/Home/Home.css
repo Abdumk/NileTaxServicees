@@ -11,6 +11,7 @@
   filter: brightness(0.9); /* Slightly darkens the image for better readability of overlayed text */
   border-radius: 8px; /* Optional: Adds subtle rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+
 }
 
 
