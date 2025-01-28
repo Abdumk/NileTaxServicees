@@ -1,5 +1,5 @@
 import React from "react";
-import IRS from "../../assets/images/IRS2.jpg";
+import IRS from "../../assets/images/IRS4.png";
 import './ServiceItem.css';
 
 const ServiceItem = () => {
