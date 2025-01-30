@@ -25,18 +25,21 @@
   
   .testimonial-item {
     background: #fff;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0 15px;
   }
   
   .testimonial-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-  }
+    width: 120px; /* Increase width */
+    height: 120px; /* Increase height */
+    border-radius: 50%; /* Ensure it remains circular */
+    object-fit: cover; /* Prevent distortion */
+    margin-bottom: 10px;
+}
+
+
   
   .testimonial-item p {
     font-size: 1.1rem;
